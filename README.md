@@ -1,14 +1,15 @@
 
-Installation
+<h2>Installation</h2>
 
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<script type="text/javascript" src="js/script.js"></script>
+<pre><link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="js/script.js"></script></pre>
 
-<script type="text/javascript">
-		jQuery(function($){
-			$( ".accordion-main" ).accordion({
-				color:'#cccccc',
-				alwaysOpen:false,
-			});
-		});
-	</script>
+<pre>
+jQuery(function($){
+	$( ".accordion-main" ).accordion({
+		color:'#cccccc',
+		alwaysOpen:false,
+	});
+});
+</pre>
+	
