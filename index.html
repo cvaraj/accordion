@@ -4,6 +4,7 @@
 	<title>Accordion</title>
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
 </head>
 <body>
@@ -12,7 +13,7 @@
 		<div class="accordion-main">
 			<div class="row">
 				<div class="accordion">
-					<span class="accordion-title">Accordion Title 1</span>
+					<span class="accordion-title active">Accordion Title 1</span>
 					<div class="accordion-content">
 						<p>Aperorrum volut hilic to dolorro optatiisciti dolum quas ad eos aut odis sam enissit ibusdam quam, ulpa sae seque cuptas quam, et doluptate sint</p>
 					</div>
@@ -45,8 +46,8 @@
 	<script type="text/javascript">
 		jQuery(function($){
 			$( ".accordion-main" ).accordion({
-				color:'#cccccc',
 				alwaysOpen:false,
+				activePanel:2,
 			});
 		});
 	</script>
