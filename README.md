@@ -9,8 +9,8 @@
 <pre>
 jQuery(function($){
 	$( ".accordion-main" ).accordion({
-		color:'#cccccc',
 		alwaysOpen:false,
+		activePanel:1;
 	});
 });
 </pre>
